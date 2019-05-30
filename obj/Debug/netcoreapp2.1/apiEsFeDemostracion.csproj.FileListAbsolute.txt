@@ -1,0 +1,14 @@
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\bin\Debug\netcoreapp2.1\apiEsFeDemostracion.deps.json
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\bin\Debug\netcoreapp2.1\apiEsFeDemostracion.runtimeconfig.json
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\bin\Debug\netcoreapp2.1\apiEsFeDemostracion.runtimeconfig.dev.json
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\bin\Debug\netcoreapp2.1\apiEsFeDemostracion.dll
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsFeDemostracion.csprojAssemblyReference.cache
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsFeDemostracion.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsFeDemostracion.RazorAssemblyInfo.cache
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsFeDemostracion.RazorAssemblyInfo.cs
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsFeDemostracion.AssemblyInfoInputs.cache
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsFeDemostracion.AssemblyInfo.cs
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsFeDemostracion.RazorTargetAssemblyInfo.cache
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\bin\Debug\netcoreapp2.1\apiEsFeDemostracion.pdb
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsFeDemostracion.dll
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsFeDemostracion.pdb
