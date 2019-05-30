@@ -17,16 +17,25 @@ Validacion de Modelos.
 - RegularExpresion
 - Url
 - BindingRequired
+
 Validacion de Modelos Personalizadas.
+
 Inyeccion de Dependencias
+
 Filtros - Middleware
  -Filtro de Accion
  -Fittro de Excepcion (Log4Net)
+ 
 DTO y Automapper
+
 Proveedores de Configuracion
+
 JWT
+
 Cors en Middleware
+
 Hashes con salt en .NetCore
+
 Swagger
 
 
