@@ -2,11 +2,17 @@
 Creación de Web api Core 2.1 con Entity FrameWork utilizando:
 
 REST (Get, Post, CRUD, DELETE, PATCH).
+
 Tipo de dato de retorno "ActionResult"
+
 Programación Asincrona manipulacion de recursos (Task, async, await).
+
 No recursividad de Datos (Data Relacionada).
+
 Nombre en regla de ruteo.
+
 Reglas de Ruteo con Model Binding
+
 Validacion de Modelos.	
 - Required
 - StringLength
