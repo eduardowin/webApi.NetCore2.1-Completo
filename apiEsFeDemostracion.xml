@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>apiEsFeDemostracion</name>
+    </assembly>
+    <members>
+        <member name="T:apiEsFeDemostracion.Controllers.RolController">
+            <summary>
+            Controlador que permite hacer las llamadas Rest del recurso de roles
+            </summary>
+        </member>
+        <member name="M:apiEsFeDemostracion.Controllers.RolController.GetEFacRol">
+            <summary>
+            Metodo Get donde obtiene todos los roles de la tabla
+            </summary>
+            <returns>Listado de Roles</returns>
+        </member>
+        <member name="M:apiEsFeDemostracion.Controllers.RolController.GetEFacRol(System.String)">
+            <summary>
+            Metodo Get donde obtiene un rol por su Id
+            </summary>
+            <returns>obtjeto de Rol</returns>
+        </member>
+        <member name="M:apiEsFeDemostracion.Controllers.RolController.PutEFacRol(System.String,apiEsFeDemostracion.Entities.EFacRol)">
+            <summary>
+            Metodo Put para borrar Rol
+            </summary>
+            <returns>Retorna no Found cuando esta bien</returns>
+        </member>
+        <member name="M:apiEsFeDemostracion.Controllers.RolController.PostEFacRol(apiEsFeDemostracion.Entities.EFacRol)">
+            <summary>
+            Metodo Post permite insertar los datos un rol nuevo
+            </summary>
+            <returns>Codigo 201</returns>
+        </member>
+    </members>
+</doc>

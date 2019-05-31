@@ -45,6 +45,10 @@
               "target": "Package",
               "version": "[6.1.0, )"
             },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -66,9 +70,13 @@
               "target": "Package",
               "version": "[2.1.9, )"
             },
-            "Swashbuckle": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.5.3, )"
+              "version": "[4.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[4.0.1, )"
             },
             "log4net": {
               "target": "Package",

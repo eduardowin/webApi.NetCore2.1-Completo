@@ -15,6 +15,9 @@ using Microsoft.Extensions.Configuration;
 
 namespace apiEsFeDemostracion.Controllers
 {
+    /// <summary>
+    /// Controlador que permite hacer las llamadas Rest del recurso de roles
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
@@ -24,6 +27,7 @@ namespace apiEsFeDemostracion.Controllers
         private readonly IMapper _mapper;
         private readonly IConfiguration _configuration;
 
+
         public RolController(IConfiguration configuration,DbContextFe context,IMapper mapper)
         {
             _context = context;
@@ -31,7 +35,10 @@ namespace apiEsFeDemostracion.Controllers
             this._configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
             var vInformacion = _configuration["vInformacion"];
         }
-
+        /// <summary>
+        /// Metodo Get donde obtiene todos los roles de la tabla
+        /// </summary>
+        /// <returns>Listado de Roles</returns>
         // GET: api/Rol
         [HttpGet]
         public IEnumerable<EFacRol> GetEFacRol()
@@ -39,6 +46,10 @@ namespace apiEsFeDemostracion.Controllers
             return _context.EFacRol;
         }
 
+        /// <summary>
+        /// Metodo Get donde obtiene un rol por su Id
+        /// </summary>
+        /// <returns>obtjeto de Rol</returns>
         // GET: api/Rol/5
         [HttpGet("{id}")]
         public async Task<IActionResult> GetEFacRol([FromRoute] string id)
@@ -57,7 +68,10 @@ namespace apiEsFeDemostracion.Controllers
 
             return Ok(oRolDto);
         }
-
+        /// <summary>
+        /// Metodo Put para borrar Rol
+        /// </summary>
+        /// <returns>Retorna no Found cuando esta bien</returns>
         // PUT: api/Rol/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutEFacRol([FromRoute] string id, [FromBody] EFacRol eFacRol)
@@ -92,7 +106,10 @@ namespace apiEsFeDemostracion.Controllers
 
             return NoContent();
         }
-
+        /// <summary>
+        /// Metodo Post permite insertar los datos un rol nuevo
+        /// </summary>
+        /// <returns>Codigo 201</returns>
         // POST: api/Rol
         [HttpPost]
         public async Task<IActionResult> PostEFacRol([FromBody] EFacRol eFacRol)

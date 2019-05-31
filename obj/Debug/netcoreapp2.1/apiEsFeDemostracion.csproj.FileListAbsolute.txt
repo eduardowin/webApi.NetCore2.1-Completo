@@ -12,3 +12,4 @@ C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsF
 C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\bin\Debug\netcoreapp2.1\apiEsFeDemostracion.pdb
 C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsFeDemostracion.dll
 C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\obj\Debug\netcoreapp2.1\apiEsFeDemostracion.pdb
+C:\Users\Eduardo\Source\repos\apiEsFeDemostracion\bin\Debug\netcoreapp2.1\apiEsFeDemostracion.xml
