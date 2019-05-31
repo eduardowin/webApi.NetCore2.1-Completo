@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+{
+  "vInformacion": "informacion de configuracion Desarrollo", 
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  }
+}
+=======
+{
+  "vInformacion": "informacion de configuracion Desarrollo", 
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  }
+}
+>>>>>>> 04c0eaaf9d6530e24dd831e22d5d4e4d5c2bc955
