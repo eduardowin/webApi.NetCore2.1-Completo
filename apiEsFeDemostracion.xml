@@ -15,6 +15,7 @@
             </summary>
             <returns>Listado de Roles</returns>
         </member>
+        <!-- Badly formed XML comment ignored for member "M:apiEsFeDemostracion.Controllers.RolController.GetEFacRol(System.Int32,System.Int32)" -->
         <member name="M:apiEsFeDemostracion.Controllers.RolController.GetEFacRol(System.String)">
             <summary>
             Metodo Get donde obtiene un rol por su Id

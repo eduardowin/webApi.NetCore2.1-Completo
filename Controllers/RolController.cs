@@ -45,7 +45,27 @@ namespace apiEsFeDemostracion.Controllers
         {
             return _context.EFacRol;
         }
+        /// Metodo Get donde obtiene todos los roles de la tabla paginado
+        /// </summary>
+        /// <returns>Listado de Roles</returns>
+        // GET: api/Rol
+        [HttpGet("GetListaRoles/{numeroDePagina}/{cantidadDeRegistros}")]
+        public async Task<ActionResult<IEnumerable<EFacRol>>> GetEFacRol(int numeroDePagina = 1, int cantidadDeRegistros = 10)
+        {
+            var query = _context.EFacRol.AsQueryable();
+            var totalDeRegistros = query.Count();
 
+            var roles = await query
+                .Skip(cantidadDeRegistros * (numeroDePagina - 1))
+                .Take(cantidadDeRegistros)
+                .ToListAsync();
+
+            Response.Headers["X-Total-Registros"] = totalDeRegistros.ToString();
+            Response.Headers["X-Cantidad-Paginas"] =((int)Math.Ceiling((double)totalDeRegistros / cantidadDeRegistros)).ToString();
+
+            return roles;
+        }
+        
         /// <summary>
         /// Metodo Get donde obtiene un rol por su Id
         /// </summary>
